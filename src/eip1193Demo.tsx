@@ -16,7 +16,12 @@ const provider = new EIP1193Provider({
     name: "Smart Wallet Expo",
     customScheme: PREFIX_URL,
   },
-  wallet: Wallets.CoinbaseSmartWallet,
+  wallet: {
+    type: 'web',
+    name: "Rapid fire wallet",
+    scheme: 'https://id.sample.openfort.xyz#policy=pol_a909d815-9b6c-40b2-9f6c-e93505281137',
+    iconUrl: 'https://purple-magnificent-bat-958.mypinata.cloud/ipfs/QmfQrh2BiCzugFauYF9Weu9SFddsVh9qV82uw43cxH8UDV',
+  },
 });
 
 export default function EIP1193Demo() {

@@ -1,5 +1,7 @@
-# Smart Wallet Expo Example
-This repository contains an example project showcasing the usage of a smart wallet application built with Expo. 
+> **Note:** To make these instructions concrete, we have created a sample ecosystem SDK called Rapidfire ID. You can find it in the NPM package directory as [`@rapidfire/id`](https://www.npmjs.com/package/@rapidfire/id). You can check out the GitHub repository for [Rapidfire SDK](https://github.com/openfort-xyz/ecosystem-sample) to learn how to create your own wallet.
+
+# Ecosystem Wallet Expo Example
+This repository contains an example project showcasing the usage of an ecosystem smart wallet application built with Expo. 
 
 ## Features
 
@@ -9,8 +11,8 @@ This repository contains an example project showcasing the usage of a smart wall
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/MobileWalletProtocol/smart-wallet-expo-example.git`
-2. Navigate to the project directory: `cd smart-wallet-expo-example`
+1. Clone the repository: `git clone https://github.com/openfort-xyz/ecosystem-wallet-expo-example.git`
+2. Navigate to the project directory: `cd ecosystem-wallet-expo-example`
 3. Install dependencies: `npm install`
 4. Start the Expo development server: `npm ios`
 
